@@ -13,10 +13,18 @@
 		AF65E6DF2A7B593D00F5EE5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF65E6DD2A7B593D00F5EE5D /* Main.storyboard */; };
 		AF65E6E12A7B593F00F5EE5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF65E6E02A7B593F00F5EE5D /* Assets.xcassets */; };
 		AF65E6E42A7B593F00F5EE5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF65E6E22A7B593F00F5EE5D /* LaunchScreen.storyboard */; };
+		AF65E6F32A7B5AC800F5EE5D /* RickyMortieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65E6F22A7B5AC800F5EE5D /* RickyMortieViewController.swift */; };
+		AF65E6F62A7B5CFB00F5EE5D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AF65E6F52A7B5CFB00F5EE5D /* SnapKit */; };
+		AF65E6F82A7DABBB00F5EE5D /* RickyMortieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65E6F72A7DABBB00F5EE5D /* RickyMortieService.swift */; };
+		AF65E6FA2A7E9ECE00F5EE5D /* RickyMortieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65E6F92A7E9ECE00F5EE5D /* RickyMortieModel.swift */; };
+		AF65E6FD2A7EB6B700F5EE5D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AF65E6FC2A7EB6B700F5EE5D /* Alamofire */; };
+		AF65E7002A7EB6F400F5EE5D /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = AF65E6FF2A7EB6F400F5EE5D /* AlamofireImage */; };
+		AF65E7022A7ED22E00F5EE5D /* RickyMortieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65E7012A7ED22E00F5EE5D /* RickyMortieViewModel.swift */; };
+		AF65E7052A7F61B500F5EE5D /* RickyMortieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65E7042A7F61B500F5EE5D /* RickyMortieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AF65E6D42A7B593D00F5EE5D /* RickyMortyAppSwiftWithoutSB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickyMortyAppSwiftWithoutSB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF65E6D42A7B593D00F5EE5D /* RickyMortieAppSwiftWithoutSB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickyMortieAppSwiftWithoutSB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF65E6D72A7B593D00F5EE5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF65E6D92A7B593D00F5EE5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AF65E6DB2A7B593D00F5EE5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +32,11 @@
 		AF65E6E02A7B593F00F5EE5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF65E6E32A7B593F00F5EE5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF65E6E52A7B593F00F5EE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF65E6F22A7B5AC800F5EE5D /* RickyMortieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyMortieViewController.swift; sourceTree = "<group>"; };
+		AF65E6F72A7DABBB00F5EE5D /* RickyMortieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyMortieService.swift; sourceTree = "<group>"; };
+		AF65E6F92A7E9ECE00F5EE5D /* RickyMortieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyMortieModel.swift; sourceTree = "<group>"; };
+		AF65E7012A7ED22E00F5EE5D /* RickyMortieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyMortieViewModel.swift; sourceTree = "<group>"; };
+		AF65E7042A7F61B500F5EE5D /* RickyMortieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyMortieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +44,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF65E6F62A7B5CFB00F5EE5D /* SnapKit in Frameworks */,
+				AF65E6FD2A7EB6B700F5EE5D /* Alamofire in Frameworks */,
+				AF65E7002A7EB6F400F5EE5D /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +64,7 @@
 		AF65E6D52A7B593D00F5EE5D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF65E6D42A7B593D00F5EE5D /* RickyMortyAppSwiftWithoutSB.app */,
+				AF65E6D42A7B593D00F5EE5D /* RickyMortieAppSwiftWithoutSB.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,23 +72,92 @@
 		AF65E6D62A7B593D00F5EE5D /* RickyMortyAppSwiftWithoutSB */ = {
 			isa = PBXGroup;
 			children = (
-				AF65E6D72A7B593D00F5EE5D /* AppDelegate.swift */,
-				AF65E6D92A7B593D00F5EE5D /* SceneDelegate.swift */,
-				AF65E6DB2A7B593D00F5EE5D /* ViewController.swift */,
-				AF65E6DD2A7B593D00F5EE5D /* Main.storyboard */,
-				AF65E6E02A7B593F00F5EE5D /* Assets.xcassets */,
+				AF65E6EC2A7B5A0400F5EE5D /* Features */,
+				AF65E6EB2A7B595200F5EE5D /* Core */,
 				AF65E6E22A7B593F00F5EE5D /* LaunchScreen.storyboard */,
 				AF65E6E52A7B593F00F5EE5D /* Info.plist */,
 			);
 			path = RickyMortyAppSwiftWithoutSB;
 			sourceTree = "<group>";
 		};
+		AF65E6EB2A7B595200F5EE5D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AF65E6DB2A7B593D00F5EE5D /* ViewController.swift */,
+				AF65E6DD2A7B593D00F5EE5D /* Main.storyboard */,
+				AF65E6D72A7B593D00F5EE5D /* AppDelegate.swift */,
+				AF65E6D92A7B593D00F5EE5D /* SceneDelegate.swift */,
+				AF65E6E02A7B593F00F5EE5D /* Assets.xcassets */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AF65E6EC2A7B5A0400F5EE5D /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				AF65E6ED2A7B5A5500F5EE5D /* RickyMortie */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		AF65E6ED2A7B5A5500F5EE5D /* RickyMortie */ = {
+			isa = PBXGroup;
+			children = (
+				AF65E6F12A7B5A7D00F5EE5D /* View */,
+				AF65E6F02A7B5A7400F5EE5D /* ViewModel */,
+				AF65E6EF2A7B5A6D00F5EE5D /* Model */,
+				AF65E6EE2A7B5A6400F5EE5D /* Service */,
+			);
+			path = RickyMortie;
+			sourceTree = "<group>";
+		};
+		AF65E6EE2A7B5A6400F5EE5D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AF65E6F72A7DABBB00F5EE5D /* RickyMortieService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		AF65E6EF2A7B5A6D00F5EE5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF65E6F92A7E9ECE00F5EE5D /* RickyMortieModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF65E6F02A7B5A7400F5EE5D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AF65E7012A7ED22E00F5EE5D /* RickyMortieViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AF65E6F12A7B5A7D00F5EE5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF65E7032A7F618C00F5EE5D /* cell */,
+				AF65E6F22A7B5AC800F5EE5D /* RickyMortieViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF65E7032A7F618C00F5EE5D /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				AF65E7042A7F61B500F5EE5D /* RickyMortieTableViewCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AF65E6D32A7B593D00F5EE5D /* RickyMortyAppSwiftWithoutSB */ = {
+		AF65E6D32A7B593D00F5EE5D /* RickyMortieAppSwiftWithoutSB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF65E6E82A7B593F00F5EE5D /* Build configuration list for PBXNativeTarget "RickyMortyAppSwiftWithoutSB" */;
+			buildConfigurationList = AF65E6E82A7B593F00F5EE5D /* Build configuration list for PBXNativeTarget "RickyMortieAppSwiftWithoutSB" */;
 			buildPhases = (
 				AF65E6D02A7B593D00F5EE5D /* Sources */,
 				AF65E6D12A7B593D00F5EE5D /* Frameworks */,
@@ -82,9 +167,14 @@
 			);
 			dependencies = (
 			);
-			name = RickyMortyAppSwiftWithoutSB;
+			name = RickyMortieAppSwiftWithoutSB;
+			packageProductDependencies = (
+				AF65E6F52A7B5CFB00F5EE5D /* SnapKit */,
+				AF65E6FC2A7EB6B700F5EE5D /* Alamofire */,
+				AF65E6FF2A7EB6F400F5EE5D /* AlamofireImage */,
+			);
 			productName = RickyMortyAppSwiftWithoutSB;
-			productReference = AF65E6D42A7B593D00F5EE5D /* RickyMortyAppSwiftWithoutSB.app */;
+			productReference = AF65E6D42A7B593D00F5EE5D /* RickyMortieAppSwiftWithoutSB.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +192,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AF65E6CF2A7B593D00F5EE5D /* Build configuration list for PBXProject "RickyMortyAppSwiftWithoutSB" */;
+			buildConfigurationList = AF65E6CF2A7B593D00F5EE5D /* Build configuration list for PBXProject "RickyMortieAppSwiftWithoutSB" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,11 +201,16 @@
 				Base,
 			);
 			mainGroup = AF65E6CB2A7B593D00F5EE5D;
+			packageReferences = (
+				AF65E6F42A7B5CFB00F5EE5D /* XCRemoteSwiftPackageReference "SnapKit" */,
+				AF65E6FB2A7EB6B700F5EE5D /* XCRemoteSwiftPackageReference "Alamofire" */,
+				AF65E6FE2A7EB6F400F5EE5D /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = AF65E6D52A7B593D00F5EE5D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF65E6D32A7B593D00F5EE5D /* RickyMortyAppSwiftWithoutSB */,
+				AF65E6D32A7B593D00F5EE5D /* RickyMortieAppSwiftWithoutSB */,
 			);
 		};
 /* End PBXProject section */
@@ -138,9 +233,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF65E7022A7ED22E00F5EE5D /* RickyMortieViewModel.swift in Sources */,
 				AF65E6DC2A7B593D00F5EE5D /* ViewController.swift in Sources */,
 				AF65E6D82A7B593D00F5EE5D /* AppDelegate.swift in Sources */,
+				AF65E6FA2A7E9ECE00F5EE5D /* RickyMortieModel.swift in Sources */,
+				AF65E6F82A7DABBB00F5EE5D /* RickyMortieService.swift in Sources */,
 				AF65E6DA2A7B593D00F5EE5D /* SceneDelegate.swift in Sources */,
+				AF65E7052A7F61B500F5EE5D /* RickyMortieTableViewCell.swift in Sources */,
+				AF65E6F32A7B5AC800F5EE5D /* RickyMortieViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +441,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF65E6CF2A7B593D00F5EE5D /* Build configuration list for PBXProject "RickyMortyAppSwiftWithoutSB" */ = {
+		AF65E6CF2A7B593D00F5EE5D /* Build configuration list for PBXProject "RickyMortieAppSwiftWithoutSB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF65E6E62A7B593F00F5EE5D /* Debug */,
@@ -350,7 +450,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF65E6E82A7B593F00F5EE5D /* Build configuration list for PBXNativeTarget "RickyMortyAppSwiftWithoutSB" */ = {
+		AF65E6E82A7B593F00F5EE5D /* Build configuration list for PBXNativeTarget "RickyMortieAppSwiftWithoutSB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF65E6E92A7B593F00F5EE5D /* Debug */,
@@ -360,6 +460,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AF65E6F42A7B5CFB00F5EE5D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		AF65E6FB2A7EB6B700F5EE5D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		AF65E6FE2A7EB6F400F5EE5D /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AF65E6F52A7B5CFB00F5EE5D /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF65E6F42A7B5CFB00F5EE5D /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		AF65E6FC2A7EB6B700F5EE5D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF65E6FB2A7EB6B700F5EE5D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		AF65E6FF2A7EB6F400F5EE5D /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF65E6FE2A7EB6F400F5EE5D /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AF65E6CC2A7B593D00F5EE5D /* Project object */;
 }
