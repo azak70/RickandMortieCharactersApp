@@ -21,6 +21,7 @@
 		AF65E7002A7EB6F400F5EE5D /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = AF65E6FF2A7EB6F400F5EE5D /* AlamofireImage */; };
 		AF65E7022A7ED22E00F5EE5D /* RickyMortieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65E7012A7ED22E00F5EE5D /* RickyMortieViewModel.swift */; };
 		AF65E7052A7F61B500F5EE5D /* RickyMortieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65E7042A7F61B500F5EE5D /* RickyMortieTableViewCell.swift */; };
+		AF65E7082A7F81E000F5EE5D /* Simulator Screen Shot - iPod touch (7th generation) - 2023-08-06 at 10.21.38.png in Resources */ = {isa = PBXBuildFile; fileRef = AF65E7072A7F81E000F5EE5D /* Simulator Screen Shot - iPod touch (7th generation) - 2023-08-06 at 10.21.38.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		AF65E6F92A7E9ECE00F5EE5D /* RickyMortieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyMortieModel.swift; sourceTree = "<group>"; };
 		AF65E7012A7ED22E00F5EE5D /* RickyMortieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyMortieViewModel.swift; sourceTree = "<group>"; };
 		AF65E7042A7F61B500F5EE5D /* RickyMortieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyMortieTableViewCell.swift; sourceTree = "<group>"; };
+		AF65E7072A7F81E000F5EE5D /* Simulator Screen Shot - iPod touch (7th generation) - 2023-08-06 at 10.21.38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPod touch (7th generation) - 2023-08-06 at 10.21.38.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		AF65E6CB2A7B593D00F5EE5D = {
 			isa = PBXGroup;
 			children = (
+				AF65E7062A7F81B600F5EE5D /* screenshot */,
 				AF65E6D62A7B593D00F5EE5D /* RickyMortyAppSwiftWithoutSB */,
 				AF65E6D52A7B593D00F5EE5D /* Products */,
 			);
@@ -152,6 +155,14 @@
 			path = cell;
 			sourceTree = "<group>";
 		};
+		AF65E7062A7F81B600F5EE5D /* screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				AF65E7072A7F81E000F5EE5D /* Simulator Screen Shot - iPod touch (7th generation) - 2023-08-06 at 10.21.38.png */,
+			);
+			path = screenshot;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -221,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF65E6E42A7B593F00F5EE5D /* LaunchScreen.storyboard in Resources */,
+				AF65E7082A7F81E000F5EE5D /* Simulator Screen Shot - iPod touch (7th generation) - 2023-08-06 at 10.21.38.png in Resources */,
 				AF65E6E12A7B593F00F5EE5D /* Assets.xcassets in Resources */,
 				AF65E6DF2A7B593D00F5EE5D /* Main.storyboard in Resources */,
 			);
